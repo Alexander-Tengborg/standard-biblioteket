@@ -4,10 +4,10 @@
 #
 # Examples
 #
-#   absolute(2, 1, 10)
+#   between(2, 1, 10)
 #   # => true
 #
-# Returns true of false.
+# Returns true or false.
 def between(num1,num2,num3)
     if num2 <= num1 && num1 <= num3
         return true
