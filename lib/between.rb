@@ -1,3 +1,13 @@
+# num1 - The Integer to determine wether it is between.
+# num2 - The limit of the range num1 could be between.
+# num3 - The limit of the range num1 could be between.
+
+# Examples
+#
+#   absolute(2, 1, 10)
+#   # => true
+#
+# Returns true of false.
 def between(num1,num2,num3)
     if num2 <= num1 && num1 <= num3
         return true
