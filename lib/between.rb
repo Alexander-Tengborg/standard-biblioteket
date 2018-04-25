@@ -1,7 +1,7 @@
 # num1 - The Integer to determine wether it is between.
-# num2 - The limit of the range num1 could be between.
-# num3 - The limit of the range num1 could be between.
-
+# num2 - The limit of the range that num1 could be between or equal to.
+# num3 - The limit of the range that num1 could be between or equal to.
+#
 # Examples
 #
 #   absolute(2, 1, 10)
